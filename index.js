@@ -1,13 +1,3 @@
-//Operações: + - / *
-
-//Variaveis
-
-//var num1
-//let num1 = int num1
-//const num1 = int num1 = 10
-
-//Condicionais
-
 let valor = Number(localStorage.getItem("contador")) || 0;
 const contador = document.getElementById("contador");
 const btnAumentar = document.getElementById("aumentar");
