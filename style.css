@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  background-color: #f0f0f0;
+}
+.titulo-gay {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: deeppink;
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  animation: brilhar 2s infinite alternate;
+  font-size: 60px;
+}
+
+.contador {
+  font-size: 100px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  transition: color 0.3s, transform 0.2s;
+}
+.positivo {
+  color: green;
+}
+.negativo {
+  color: red;
+}
+.neutro {
+  color: gray;
+}
+.animar {
+  transform: scale(1.2);
+}
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.03s ease;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.definir-numero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.definir-numero input {
+  padding: 10px;
+  text-align: center;
+  color: #ff69b4;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  width: 205px;
+  transition: border-color 0.3s ease;
+}
+.definir-numero input:focus {
+  border-color: deeppink;
+}
+@keyframes brilhar {
+  0% {
+    color: deeppink;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: yellowgreen;
+  }
+  75% {
+    color: deepskyblue;
+  }
+  100% {
+    color: violet;
+  }
+}
+@media ( min-width: 360px) and (max-width: 450px)  {
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #f0f0f0;
+ 
+}
+  .titulo-gay {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: deeppink;
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  animation: brilhar 2s infinite alternate;
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.contador {
+  font-size: 100px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  transition: color 0.3s, transform 0.2s;
+  margin-top: 15px;
+}
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.03s ease;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.definir-numero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+}
