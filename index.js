@@ -28,7 +28,7 @@ btnDefinirNumero.addEventListener("click", () => {
   } 
   else {
     alert(
-      "ATENÇÃO, GAY!!! O contador não está zerado. Zere-o para definir um novo valor."
+      "ATENÇÃO!!! O contador não está zerado. Zere-o para definir um novo valor."
     );
   }
 });
