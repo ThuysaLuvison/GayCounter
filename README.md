@@ -1,6 +1,6 @@
-# 🌈 Contador Gay 🎉
+# 🌈 Contador Rainbow 🎉
 
-**Contador Gay** é uma aplicação divertida feita com **HTML**, **CSS** e **JavaScript** puro.  
+**Contador Rainbow** é uma aplicação divertida feita com **HTML**, **CSS** e **JavaScript** puro.  
 Foi criada com o objetivo de praticar lógica de programação e manipulação do DOM de forma leve, acessível e com bom humor.
 
 ## ✨ O que essa aplicação faz
@@ -44,6 +44,6 @@ Os botões se ajustam, os textos continuam legíveis, e tudo se adapta ao tamanh
 
 O projeto pode ser acessado em:
 
-[GayCounter](https://gay-counter.vercel.app/)
+[Rainbow Counter](https://rainbow-counter.vercel.app/)
 
 
