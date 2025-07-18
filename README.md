@@ -1,7 +1,9 @@
 # 🌈 Contador Rainbow 🎉
 
 Bem-vindo ao **Contador Rainbow**!
+
 Este projeto é uma aplicação divertida feita com **HTML**, **CSS** e **JavaScript** puro.  
+
 Foi criada com o objetivo de praticar lógica de programação e manipulação do DOM de forma leve, acessível e com bom humor.
 
 ---
