@@ -43,6 +43,7 @@ Foi criada com o objetivo de praticar lógica de programação e manipulação d
 O layout foi feito usando `flexbox` e media queries para funcionar bem em celulares e tablets.  
 Os botões se ajustam, os textos continuam legíveis, e tudo se adapta ao tamanho da tela.
 
+---
 
 ## 📄 Licença
 
