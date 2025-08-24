@@ -1,6 +1,6 @@
 # 🌈 Contador Rainbow 🎉
 
-Bem-vindo ao **Contador Rainbow**!
+Bem-vindo(a) ao **Contador Rainbow**!
 
 Este projeto é uma aplicação divertida feita com **HTML**, **CSS** e **JavaScript** puro.  
 
